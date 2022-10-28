@@ -4,10 +4,7 @@ body{
     background-attachment: fixed;
     background-size: cover;
 }
-hr{
-    size: 200px;
-    color:black black;
-}
+
 .wrapper{
     display: flex;
     flex-direction:column;
@@ -44,25 +41,41 @@ hr{
     order: 3;    
     justify-self: flex-end;
 }
-ul{
+.listaInicio{
     list-style-type: none;
     padding:0px;
     margin: 0px;
     font: bolder ;
 }
-li{
+.Menu1{
     float: left;
     margin-left: 5px;
     padding:0%;
     font: bolder;
-
 }
-
+.Menu2{
+    float: left;
+    margin-left: 5px;
+    padding:0%;
+    font: bolder;
+}
+.Menu3{
+    float: left;
+    margin-left: 5px;
+    padding:0%;
+    font: bolder;
+}
+.sep{
+    float: left;
+    margin-left: 5px;
+    padding:0%;
+    font: bolder;
+}
 .Jumbotron{
     display: flex;
     justify-content: space-between;
     border: 1px solid black;
-    width:70%;
+    width: 70%;
     height: 800px;
 }
 .desc{
@@ -72,15 +85,15 @@ li{
     align-content: center;
     justify-content: center;
 }
-h2{
-    align-self: center;
-}
+
 .user{
     display: flex;
     flex-direction: column;
     justify-content: space-around;
     align-items: center;
+    text-align: center;
 }
+
 .reg{
     display:flex;
     flex-direction: row;
@@ -88,11 +101,27 @@ h2{
     justify-content: space-around;
     row-gap: 5px;
 }
+.despedida{
+    justify-content: space-around;
+    align-items: center;
+}
+h3{
+    align-self: center;
+}
+.catalogo{
+    display:flex;
+    flex-direction: column;
+    align-self: center;
+}
+.cata{
+    align-self: center;
+}
+
 .mainpic{
     align-self: center;
 }
 .imgjumbo{
-    height: 700px;
+    height: 600px;
     border-radius: 25px;
 }   
 .blog{
@@ -119,9 +148,59 @@ img:hover{
     border:solid 1px #ffffff;
 }
 .adicionales{
+    display: flex;
+    flex-direction: row;
     border: 1px solid black;
+    align-items: center;
+    justify-content: center;
+    height: 500px;
+}
+.customizar{
+    justify-self: center;
+    align-self: center;
+}
+.custodec{
+    padding: auto;
+    margin: auto;
+    text-align: center;
 }
 
-.footer{
+.jumbo2{
+    height: 400px;
+    border-radius: 25px;
+}
+.correo{
+    align-content: stretch;
+    padding-left: 50px;    
+}
+.submit{
+    font-displa
+}
+button{
+    border: .5px solid gray;
+    background-color: rgb(243, 240, 194);
+    border-radius: 5px;
+}
+.pie{
     border: 1px solid black;
+    display: flex;
+    flex-direction: row;
+    justify-content: space-around;
+    width: 80%
+    
+}
+.listas{
+    list-style-type: none;
+    padding:0px;
+    margin: 0px;
+    font: rgb(169, 169, 169) bolder;
+    font-size: small;
+    height: 200px;
+}
+.mitiapie{
+    height: 100px;
+    border-radius: 999em;
+}
+.redes{
+    
 }
